@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -39,6 +41,44 @@
     background-image: url("img1.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 800px;
+    height: 700px;  
+}
+
+.myintro{
+    
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
    
+}
+
+.myintro .hi1{
+    margin-top: 150px;
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+}
+
+.myintro .hi2{
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+}
+
+.myintro .button button {
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 25px;
+    background: rgb(200, 200, 200);
+    color: black;
+    font-weight: bold;
+    cursor:  pointer;
+    
+}
+
+.myintro .button button:hover{
+    background-color: black;
+    color:rgb(200, 200, 200); ;
+}
+.container2{
+    background-color: rgb(231, 190, 190);
+    height: 500px;
 }
