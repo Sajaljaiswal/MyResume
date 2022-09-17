@@ -9,6 +9,7 @@
 .logo{
     height: 65px;
     width: 180px;
+    cursor: pointer;
 }
 
 .navbar{
